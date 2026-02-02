@@ -66,6 +66,7 @@ export const useAuthentication = () => {
     checkIfIsCancelled();
 
     signOut(auth);
+    navigate("/");
   };
 
   const login = async (data) => {
