@@ -66,7 +66,6 @@ export const useAuthentication = () => {
     checkIfIsCancelled();
 
     signOut(auth);
-    navigate("/");
   };
 
   const login = async (data) => {
@@ -85,11 +84,11 @@ export const useAuthentication = () => {
       let systemErrorMessage;
 
       if (error.message.includes("user-not-found")) {
-        systemErrorMessage = "Usuário não encontrado.";
+        systemErrorMessage = "User not found.";
       } else if (error.message.includes("wrong-password")) {
-        systemErrorMessage = "Senha incorreta.";
+        systemErrorMessage = "Wrong password.";
       } else {
-        systemErrorMessage = "Ocorreu um erro, por favor tenta mais tarde.";
+        systemErrorMessage = "An error occurred, please try again later.";
       }
 
       console.log(systemErrorMessage);

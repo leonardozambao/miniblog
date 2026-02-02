@@ -20,7 +20,6 @@
   display: flex;
   list-style: none;
   gap: 1em;
-  button,
   a {
     padding: 0.4em 0.6em;
     display: block;
@@ -30,5 +29,13 @@
   .active {
     background-color: black;
     color: white;
+  }
+  button{
+    background-color: transparent;
+    padding: 0.4em 0.6em;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2em;
+    text-decoration: underline;
   }
 }
