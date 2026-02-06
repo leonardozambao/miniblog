@@ -16,6 +16,7 @@ import Dashboard from "./pages/dashboard/Dashboard";
 import CreatePost from "./pages/createPost/CreatePost";
 
 import Navbar from "./components/Navbar";
+import Loading from "./components/Loading";
 
 function App() {
   const [user, setUser] = useState(undefined);
@@ -30,7 +31,7 @@ function App() {
   }, [auth])
 
   if (loadingUser) {
-    return <p>Loading...</p>
+    return <Loading />
   }
 
   return (
