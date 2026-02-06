@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    form{
+        margin: 0;
+    }
+}
+
+.posts{
+}
+
+.posts :global(.button){
+    display: table;
+    margin: .5rem auto;
+}
+
+.noPosts{
+    text-align: center;
+    margin-top: 1rem;
+}
