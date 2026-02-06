@@ -98,6 +98,7 @@ form {
     padding: 0.8em 0;
     background-color: transparent;
     outline: none;
+    font: inherit;
   }
   ::placeholder {
     color: #aaa;

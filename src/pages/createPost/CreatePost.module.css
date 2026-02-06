@@ -1,3 +1,12 @@
-.createPost{
-    
+.createPost {
+  text-align: center;
+  a {
+    text-decoration: underline;
+  }
+  h1 {
+    margin-bottom: 0.5em;
+  }
+  p {
+    margin-bottom: 1em;
+  }
 }
