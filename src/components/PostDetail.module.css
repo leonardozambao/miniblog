@@ -1,0 +1,29 @@
+.post{
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
+
+.post__title{
+    margin: .5rem 0;
+    font-size: 1.5rem;
+}
+
+.post__tags{
+    display: flex;
+    gap: .4rem;
+    margin: .5rem 0;
+    span{
+        font-size: .8em;
+    }
+}
+
+.post__author{
+    span{
+        font-weight: 600;
+    }
+}
